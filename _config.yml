@@ -34,7 +34,7 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    formatter: HTMLLinewise
+    css_class: 'highlight'
     span:
       line_numbers: false
     block:
