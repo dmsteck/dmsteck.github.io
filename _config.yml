@@ -28,6 +28,19 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.steckoverflow.com # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dmsteck
 
+
+# Markdown settings to enable line numbers in fenced code blocks
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    formatter: HTMLLinewise
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+
 # Build settings
 theme: minima
 plugins:
