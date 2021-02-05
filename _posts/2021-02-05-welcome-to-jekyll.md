@@ -14,12 +14,12 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight cpp linenos %}
+#include <iostream>
+
+int main() {
+    std::cout << "Hello world!" << std::endl;
+}
 {% endhighlight %}
 
 This is an experimental fenced code snippet:
